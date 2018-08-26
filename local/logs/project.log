@@ -1,0 +1,66 @@
+2018-08-26T02:42:18.255Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-26T02:42:18.264Z - normal: checking language setting...
+2018-08-26T02:42:18.265Z - normal: Language: zh
+2018-08-26T02:42:20.555Z - success: protocol editor-framework registered
+2018-08-26T02:42:20.556Z - success: protocol app registered
+2018-08-26T02:42:20.556Z - success: protocol theme registered
+2018-08-26T02:42:20.556Z - success: protocol packages registered
+2018-08-26T02:42:20.557Z - success: protocol unpack registerred
+2018-08-26T02:42:20.557Z - success: protocol disable-commonjs registerred
+2018-08-26T02:42:20.740Z - normal: connected!
+2018-08-26T02:42:20.746Z - normal: Check project /Users/morningtzh/Downloads/start_project
+2018-08-26T02:42:20.753Z - normal: Initializing project /Users/morningtzh/Downloads/start_project
+2018-08-26T02:42:20.768Z - normal: Initializing Cocos2d
+2018-08-26T02:42:22.576Z - normal: Initializing Asset Database
+2018-08-26T02:42:22.700Z - success: protocol uuid registerred
+2018-08-26T02:42:22.702Z - success: protocol db registerred
+2018-08-26T02:42:22.703Z - success: protocol thumbnail registerred
+2018-08-26T02:42:22.703Z - normal: Loading editor/builtin packages
+2018-08-26T02:42:23.226Z - success: assets loaded
+2018-08-26T02:42:23.240Z - success: builder loaded
+2018-08-26T02:42:23.245Z - success: cocos-analytics loaded
+2018-08-26T02:42:23.263Z - success: console loaded
+2018-08-26T02:42:23.355Z - success: fb-instant-games loaded
+2018-08-26T02:42:23.372Z - success: hierarchy loaded
+2018-08-26T02:42:23.389Z - success: inspector loaded
+2018-08-26T02:42:23.393Z - success: keystore loaded
+2018-08-26T02:42:23.412Z - success: node-library loaded
+2018-08-26T02:42:23.419Z - success: package-asset loaded
+2018-08-26T02:42:23.423Z - success: preferences loaded
+2018-08-26T02:42:23.431Z - success: project-exporter loaded
+2018-08-26T02:42:23.491Z - success: project-importer loaded
+2018-08-26T02:42:23.500Z - success: project-settings loaded
+2018-08-26T02:42:23.517Z - success: ui-kit loaded
+2018-08-26T02:42:23.528Z - success: scene loaded
+2018-08-26T02:42:23.535Z - success: sprite-editor loaded
+2018-08-26T02:42:23.552Z - success: store loaded
+2018-08-26T02:42:23.570Z - success: timeline loaded
+2018-08-26T02:42:23.570Z - normal: Loading builtin packages
+2018-08-26T02:42:23.588Z - success: asset-db-debugger loaded
+2018-08-26T02:42:23.593Z - success: color-picker loaded
+2018-08-26T02:42:23.601Z - success: jsb-adapter loaded
+2018-08-26T02:42:23.622Z - success: package-manager loaded
+2018-08-26T02:42:23.625Z - success: qqplay-adapter loaded
+2018-08-26T02:42:23.819Z - success: sdkbox loaded
+2018-08-26T02:42:23.845Z - success: tester loaded
+2018-08-26T02:42:23.867Z - normal: last time update is in one day
+2018-08-26T02:42:23.868Z - success: ui-grid loaded
+2018-08-26T02:42:23.883Z - success: ui-kit-preview-extra loaded
+2018-08-26T02:42:23.894Z - success: ui-kit-preview loaded
+2018-08-26T02:42:23.905Z - success: ui-tree loaded
+2018-08-26T02:42:23.910Z - success: weapp-adapter loaded
+2018-08-26T02:42:27.456Z - normal: Loading packages
+2018-08-26T02:42:27.525Z - normal: Watching packages
+2018-08-26T02:42:27.720Z - normal: Run Application
+2018-08-26T02:42:30.902Z - success: preview server running at http://localhost:7456
+2018-08-26T03:14:11.132Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:6351
+2018-08-26T03:14:11.139Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:6353
+2018-08-26T03:24:16.929Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7994
+2018-08-26T03:26:06.354Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8944
+2018-08-26T03:26:06.361Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8946
+2018-08-26T03:26:06.362Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8947
+2018-08-26T03:27:07.505Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:9466
+2018-08-26T03:27:07.510Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:9468
+2018-08-26T03:29:12.648Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10699
+2018-08-26T03:29:12.656Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10701
+2018-08-26T03:30:08.685Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:11184
