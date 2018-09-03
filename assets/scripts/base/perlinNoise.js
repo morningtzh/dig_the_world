@@ -38,7 +38,7 @@ function InterpolatedNoise(x, y) // 获取插值噪声
     return Cosine_Interpolate(i1, i2, fractional_Y);
 }
 
-export default function PerlinNoise(x, y) // 最终调用：根据(x,y)获得其对应的PerlinNoise值
+module.exports =  function PerlinNoise(x, y) // 最终调用：根据(x,y)获得其对应的PerlinNoise值
 {
     let total = 0;
     const p = persistence;

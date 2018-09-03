@@ -1,66 +1,167 @@
-2018-08-26T02:42:18.255Z - normal: Load ~/.CocosCreator/settings.json
-2018-08-26T02:42:18.264Z - normal: checking language setting...
-2018-08-26T02:42:18.265Z - normal: Language: zh
-2018-08-26T02:42:20.555Z - success: protocol editor-framework registered
-2018-08-26T02:42:20.556Z - success: protocol app registered
-2018-08-26T02:42:20.556Z - success: protocol theme registered
-2018-08-26T02:42:20.556Z - success: protocol packages registered
-2018-08-26T02:42:20.557Z - success: protocol unpack registerred
-2018-08-26T02:42:20.557Z - success: protocol disable-commonjs registerred
-2018-08-26T02:42:20.740Z - normal: connected!
-2018-08-26T02:42:20.746Z - normal: Check project /Users/morningtzh/Downloads/start_project
-2018-08-26T02:42:20.753Z - normal: Initializing project /Users/morningtzh/Downloads/start_project
-2018-08-26T02:42:20.768Z - normal: Initializing Cocos2d
-2018-08-26T02:42:22.576Z - normal: Initializing Asset Database
-2018-08-26T02:42:22.700Z - success: protocol uuid registerred
-2018-08-26T02:42:22.702Z - success: protocol db registerred
-2018-08-26T02:42:22.703Z - success: protocol thumbnail registerred
-2018-08-26T02:42:22.703Z - normal: Loading editor/builtin packages
-2018-08-26T02:42:23.226Z - success: assets loaded
-2018-08-26T02:42:23.240Z - success: builder loaded
-2018-08-26T02:42:23.245Z - success: cocos-analytics loaded
-2018-08-26T02:42:23.263Z - success: console loaded
-2018-08-26T02:42:23.355Z - success: fb-instant-games loaded
-2018-08-26T02:42:23.372Z - success: hierarchy loaded
-2018-08-26T02:42:23.389Z - success: inspector loaded
-2018-08-26T02:42:23.393Z - success: keystore loaded
-2018-08-26T02:42:23.412Z - success: node-library loaded
-2018-08-26T02:42:23.419Z - success: package-asset loaded
-2018-08-26T02:42:23.423Z - success: preferences loaded
-2018-08-26T02:42:23.431Z - success: project-exporter loaded
-2018-08-26T02:42:23.491Z - success: project-importer loaded
-2018-08-26T02:42:23.500Z - success: project-settings loaded
-2018-08-26T02:42:23.517Z - success: ui-kit loaded
-2018-08-26T02:42:23.528Z - success: scene loaded
-2018-08-26T02:42:23.535Z - success: sprite-editor loaded
-2018-08-26T02:42:23.552Z - success: store loaded
-2018-08-26T02:42:23.570Z - success: timeline loaded
-2018-08-26T02:42:23.570Z - normal: Loading builtin packages
-2018-08-26T02:42:23.588Z - success: asset-db-debugger loaded
-2018-08-26T02:42:23.593Z - success: color-picker loaded
-2018-08-26T02:42:23.601Z - success: jsb-adapter loaded
-2018-08-26T02:42:23.622Z - success: package-manager loaded
-2018-08-26T02:42:23.625Z - success: qqplay-adapter loaded
-2018-08-26T02:42:23.819Z - success: sdkbox loaded
-2018-08-26T02:42:23.845Z - success: tester loaded
-2018-08-26T02:42:23.867Z - normal: last time update is in one day
-2018-08-26T02:42:23.868Z - success: ui-grid loaded
-2018-08-26T02:42:23.883Z - success: ui-kit-preview-extra loaded
-2018-08-26T02:42:23.894Z - success: ui-kit-preview loaded
-2018-08-26T02:42:23.905Z - success: ui-tree loaded
-2018-08-26T02:42:23.910Z - success: weapp-adapter loaded
-2018-08-26T02:42:27.456Z - normal: Loading packages
-2018-08-26T02:42:27.525Z - normal: Watching packages
-2018-08-26T02:42:27.720Z - normal: Run Application
-2018-08-26T02:42:30.902Z - success: preview server running at http://localhost:7456
-2018-08-26T03:14:11.132Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:6351
-2018-08-26T03:14:11.139Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:6353
-2018-08-26T03:24:16.929Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7994
-2018-08-26T03:26:06.354Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8944
-2018-08-26T03:26:06.361Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8946
-2018-08-26T03:26:06.362Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8947
-2018-08-26T03:27:07.505Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:9466
-2018-08-26T03:27:07.510Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:9468
-2018-08-26T03:29:12.648Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10699
-2018-08-26T03:29:12.656Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10701
-2018-08-26T03:30:08.685Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:11184
+2018-08-27T13:14:10.837Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-27T13:14:10.845Z - normal: checking language setting...
+2018-08-27T13:14:10.845Z - normal: Language: zh
+2018-08-27T13:14:12.603Z - success: protocol editor-framework registered
+2018-08-27T13:14:12.603Z - success: protocol app registered
+2018-08-27T13:14:12.604Z - success: protocol theme registered
+2018-08-27T13:14:12.604Z - success: protocol packages registered
+2018-08-27T13:14:12.604Z - success: protocol unpack registerred
+2018-08-27T13:14:12.604Z - success: protocol disable-commonjs registerred
+2018-08-27T13:14:12.772Z - normal: connected!
+2018-08-27T13:14:12.776Z - normal: Check project /Users/morningtzh/Downloads/start_project
+2018-08-27T13:14:12.783Z - normal: Initializing project /Users/morningtzh/Downloads/start_project
+2018-08-27T13:14:12.794Z - normal: Initializing Cocos2d
+2018-08-27T13:14:14.250Z - normal: Initializing Asset Database
+2018-08-27T13:14:14.347Z - success: protocol uuid registerred
+2018-08-27T13:14:14.347Z - success: protocol db registerred
+2018-08-27T13:14:14.347Z - success: protocol thumbnail registerred
+2018-08-27T13:14:14.348Z - normal: Loading editor/builtin packages
+2018-08-27T13:14:14.743Z - success: assets loaded
+2018-08-27T13:14:14.755Z - success: builder loaded
+2018-08-27T13:14:14.759Z - success: cocos-analytics loaded
+2018-08-27T13:14:14.774Z - success: console loaded
+2018-08-27T13:14:14.848Z - success: fb-instant-games loaded
+2018-08-27T13:14:14.860Z - success: hierarchy loaded
+2018-08-27T13:14:14.874Z - success: inspector loaded
+2018-08-27T13:14:14.881Z - success: keystore loaded
+2018-08-27T13:14:14.899Z - success: node-library loaded
+2018-08-27T13:14:14.904Z - success: package-asset loaded
+2018-08-27T13:14:14.908Z - success: preferences loaded
+2018-08-27T13:14:14.914Z - success: project-exporter loaded
+2018-08-27T13:14:14.962Z - success: project-importer loaded
+2018-08-27T13:14:14.967Z - success: project-settings loaded
+2018-08-27T13:14:14.986Z - success: ui-kit loaded
+2018-08-27T13:14:14.996Z - success: scene loaded
+2018-08-27T13:14:15.000Z - success: sprite-editor loaded
+2018-08-27T13:14:15.009Z - success: store loaded
+2018-08-27T13:14:15.024Z - success: timeline loaded
+2018-08-27T13:14:15.024Z - normal: Loading builtin packages
+2018-08-27T13:14:15.043Z - success: asset-db-debugger loaded
+2018-08-27T13:14:15.046Z - success: color-picker loaded
+2018-08-27T13:14:15.050Z - success: jsb-adapter loaded
+2018-08-27T13:14:15.064Z - success: package-manager loaded
+2018-08-27T13:14:15.068Z - success: qqplay-adapter loaded
+2018-08-27T13:14:15.203Z - success: sdkbox loaded
+2018-08-27T13:14:15.219Z - normal: last time update is in one day
+2018-08-27T13:14:15.220Z - success: tester loaded
+2018-08-27T13:14:15.232Z - success: ui-grid loaded
+2018-08-27T13:14:15.243Z - success: ui-kit-preview-extra loaded
+2018-08-27T13:14:15.255Z - success: ui-kit-preview loaded
+2018-08-27T13:14:15.267Z - success: ui-tree loaded
+2018-08-27T13:14:15.271Z - success: weapp-adapter loaded
+2018-08-27T13:14:18.049Z - normal: Loading packages
+2018-08-27T13:14:18.059Z - normal: Watching packages
+2018-08-27T13:14:18.225Z - normal: Run Application
+2018-08-27T13:14:23.373Z - success: preview server running at http://localhost:7456
+2018-08-27T13:14:41.932Z - warn: Script attached to "player" in scene "game.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/map/player"
+Asset url: "db://assets/game.fire"
+Script UUID: "bf1897a9-34e8-42e0-8881-a118a4f150fa"
+Class ID: "bf189epNOhC4IiBoRik8VD6"
+
+2018-08-27T13:14:41.934Z - warn: Script attached to "map" in scene "game.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/map"
+Asset url: "db://assets/game.fire"
+Script UUID: "6634f7b6-0dbf-4cac-a126-22fe7557d763"
+Class ID: "6634fe2Db9MrKEmIv51V9dj"
+
+2018-08-27T13:14:41.937Z - warn: Script attached to "attack" in scene "game.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/UILayout/attack"
+Asset url: "db://assets/game.fire"
+Script UUID: "ee52fd16-ff67-421d-aa38-c1071bb4d7b5"
+Class ID: "ee52f0W/2dCHao4wQcbtNe1"
+
+2018-08-27T13:14:41.939Z - warn: Script attached to "direction" in scene "game.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/UILayout/direction"
+Asset url: "db://assets/game.fire"
+Script UUID: "9d7fc81f-00aa-4916-b7f1-4ec2d1941e07"
+Class ID: "9d7fcgfAKpJFrfxTsLRlB4H"
+
+2018-08-27T13:14:41.944Z - warn: Script attached to "Canvas" in scene "game.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/game.fire"
+Script UUID: "89e4fb81-6dd6-4c4e-9133-e793225e1345"
+Class ID: "89e4fuBbdZMTpEz55MiXhNF"
+
+2018-08-27T13:14:42.014Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:16:22.492Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1817
+2018-08-27T13:17:04.276Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:21:31.391Z - warn: Script attached to "attack" is missing or invalid. Detailed information:
+Node path: "Canvas/UILayout/attack"
+Script UUID: "ee52fd16-ff67-421d-aa38-c1071bb4d7b5"
+Class ID: "ee52f0W/2dCHao4wQcbtNe1"
+
+2018-08-27T13:21:31.398Z - warn: Script attached to "direction" is missing or invalid. Detailed information:
+Node path: "Canvas/UILayout/direction"
+Script UUID: "9d7fc81f-00aa-4916-b7f1-4ec2d1941e07"
+Class ID: "9d7fcgfAKpJFrfxTsLRlB4H"
+
+2018-08-27T13:21:31.659Z - warn: Script attached to "attack" is missing or invalid. Detailed information:
+Node path: "Canvas/UILayout/attack"
+Script UUID: "ee52fd16-ff67-421d-aa38-c1071bb4d7b5"
+Class ID: "ee52f0W/2dCHao4wQcbtNe1"
+
+2018-08-27T13:21:31.661Z - warn: Script attached to "direction" is missing or invalid. Detailed information:
+Node path: "Canvas/UILayout/direction"
+Script UUID: "9d7fc81f-00aa-4916-b7f1-4ec2d1941e07"
+Class ID: "9d7fcgfAKpJFrfxTsLRlB4H"
+
+2018-08-27T13:22:31.547Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4101
+2018-08-27T13:24:14.515Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:25:23.746Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:28:31.549Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:29:36.825Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:30:27.006Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:35:47.653Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:37:02.243Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+
+2018-08-27T13:40:54.780Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/star.prefab"
+Script UUID: "4377e420-37a7-400b-8748-f097d71e1979"
+Class ID: "4377eQgN6dAC4dI8JfXHhl5"
+

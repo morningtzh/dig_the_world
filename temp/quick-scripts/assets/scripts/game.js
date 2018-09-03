@@ -1,5 +1,5 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/game.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '89e4fuBbdZMTpEz55MiXhNF', 'game', __filename);
+cc._RF.push(module, '4a33avXwPFBlbMDcG+ARk9h', 'game', __filename);
 // scripts/game.js
 
 'use strict';
@@ -47,7 +47,7 @@ cc.Class({
 
         cc.director.getPhysicsManager().enabled = true;
 
-        cc.director.getPhysicsManager().debugDrawFlags = cc.PhysicsManager.DrawBits.e_aabbBit // |
+        //cc.director.getPhysicsManager().debugDrawFlags = cc.PhysicsManager.DrawBits.e_aabbBit// |
         // cc.PhysicsManager.DrawBits.e_pairBit |
         // cc.PhysicsManager.DrawBits.e_centerOfMassBit |
         // cc.PhysicsManager.DrawBits.e_jointBit |

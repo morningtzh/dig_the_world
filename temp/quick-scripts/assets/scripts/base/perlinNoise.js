@@ -1,13 +1,9 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/base/perlinNoise.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'a2c7a8h74RGHrGgn5ztTjMi', 'perlinNoise', __filename);
+cc._RF.push(module, '02feaSmaP5KhLYEg7Icf8Ce', 'perlinNoise', __filename);
 // scripts/base/perlinNoise.js
 
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.default = PerlinNoise;
 var persistence = 0.50;
 var Number_Of_Octaves = 4;
 
@@ -48,7 +44,7 @@ function InterpolatedNoise(x, y) // 获取插值噪声
     return Cosine_Interpolate(i1, i2, fractional_Y);
 }
 
-function PerlinNoise(x, y) // 最终调用：根据(x,y)获得其对应的PerlinNoise值
+module.exports = function PerlinNoise(x, y) // 最终调用：根据(x,y)获得其对应的PerlinNoise值
 {
     var total = 0;
     var p = persistence;
@@ -61,8 +57,7 @@ function PerlinNoise(x, y) // 最终调用：根据(x,y)获得其对应的Perlin
     //console.log("perlin", total)
 
     return total * 1000;
-}
-module.exports = exports["default"];
+};
 
 cc._RF.pop();
         }

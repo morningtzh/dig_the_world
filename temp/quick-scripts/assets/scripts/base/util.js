@@ -1,84 +1,70 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/base/util.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '26028GivI9DGbVGfupJDJve', 'util', __filename);
+cc._RF.push(module, 'c489c+55QBEYrimS+ex5zdg', 'util', __filename);
 // scripts/base/util.js
 
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var Util = function () {
-    function Util() {
-        _classCallCheck(this, Util);
-
-        this.BLOCK_WIDTH = 16;
-        this.BLOCK_HEIGHT = 16;
-        this.BLOCK_PER_CHUNK_WIDTH = 16;
-        this.BLOCK_PER_CHUNK_HEIGHT = 16;
-        this.CHUNK_WIDTH = this.BLOCK_WIDTH * this.BLOCK_PER_CHUNK_WIDTH;
-        this.CHUNK_HEIGHT = this.BLOCK_HEIGHT * this.BLOCK_PER_CHUNK_HEIGHT;
-    }
+var Util = {
     // 方块包含的像素
-
+    BLOCK_WIDTH: 16,
+    BLOCK_HEIGHT: 16,
 
     // Chunk包含的方块数
-
+    BLOCK_PER_CHUNK_WIDTH: 16,
+    BLOCK_PER_CHUNK_HEIGHT: 16,
 
     // Chunk包含的像素
+    get CHUNK_WIDTH() {
+        return this.BLOCK_WIDTH * this.BLOCK_PER_CHUNK_WIDTH;
+    },
+    get CHUNK_HEIGHT() {
+        return this.BLOCK_HEIGHT * this.BLOCK_PER_CHUNK_HEIGHT;
+    },
+
+    // Chunk的四叉樹深度, 注意和方塊數聯動！！！！
+    CHUNK_QUARTREE_DEPTH: 4,
+
+    pixel2ChunkId_W: function pixel2ChunkId_W(pixel) {
+        return parseInt(pixel / this.CHUNK_WIDTH);
+    },
+    pixel2ChunkId_H: function pixel2ChunkId_H(pixel) {
+        return parseInt(pixel / this.CHUNK_HEIGHT);
+    },
+    chunkId2Pixel_W: function chunkId2Pixel_W(chunkId) {
+        return parseInt(chunkId * this.CHUNK_WIDTH);
+    },
+    chunkId2Pixel_H: function chunkId2Pixel_H(chunkId) {
+        return parseInt(chunkId * this.CHUNK_HEIGHT);
+    },
+    pixel2AbsoluteBlockId_W: function pixel2AbsoluteBlockId_W(pixel) {
+        return parseInt(pixel / this.BLOCK_WIDTH);
+    },
+    pixel2AbsoluteBlockId_H: function pixel2AbsoluteBlockId_H(pixel) {
+        return parseInt(pixel / this.BLOCK_HEIGHT);
+    },
+    absoluteBlockId2Pixel_W: function absoluteBlockId2Pixel_W(chunkId) {
+        return parseInt(chunkId * this.BLOCK_WIDTH);
+    },
+    absoluteBlockId2Pixel_H: function absoluteBlockId2Pixel_H(chunkId) {
+        return parseInt(chunkId * this.BLOCK_HEIGHT);
+    },
+    getChunkName: function getChunkName(x, y) {
+        return x + "|" + y;
+    },
+    getChunkRect: function getChunkRect(x, y) {
+        return [this.chunkId2Pixel_W(x), this.chunkId2Pixel_H(y), this.CHUNK_WIDTH, this.CHUNK_HEIGHT];
+    },
 
 
-    _createClass(Util, [{
-        key: "pixel2ChunkId_W",
-        value: function pixel2ChunkId_W(pixel) {
-            return parseInt(pixel / this.CHUNK_WIDTH);
-        }
-    }, {
-        key: "pixel2ChunkId_H",
-        value: function pixel2ChunkId_H(pixel) {
-            return parseInt(pixel / this.CHUNK_HEIGHT);
-        }
-    }, {
-        key: "chunkId2Pixel_W",
-        value: function chunkId2Pixel_W(chunkId) {
-            return parseInt(chunkId * this.CHUNK_WIDTH);
-        }
-    }, {
-        key: "chunkId2Pixel_H",
-        value: function chunkId2Pixel_H(chunkId) {
-            return parseInt(chunkId * this.CHUNK_HEIGHT);
-        }
-    }, {
-        key: "pixel2AbsoluteBlockId_W",
-        value: function pixel2AbsoluteBlockId_W(pixel) {
-            return parseInt(pixel / this.BLOCK_WIDTH);
-        }
-    }, {
-        key: "pixel2AbsoluteBlockId_H",
-        value: function pixel2AbsoluteBlockId_H(pixel) {
-            return parseInt(pixel / this.BLOCK_HEIGHT);
-        }
-    }, {
-        key: "absoluteBlockId2Pixel_W",
-        value: function absoluteBlockId2Pixel_W(chunkId) {
-            return parseInt(chunkId * this.BLOCK_WIDTH);
-        }
-    }, {
-        key: "absoluteBlockId2Pixel_H",
-        value: function absoluteBlockId2Pixel_H(chunkId) {
-            return parseInt(chunkId * this.BLOCK_HEIGHT);
-        }
-    }]);
+    DATATYPE: {
+        CHUNK: Symbol("Chunk"),
+        QUARTREE: Symbol("Quartree"),
+        BLOCK: Symbol("Block")
+    }
 
-    return Util;
-}();
+};
 
-exports.default = new Util();
-module.exports = exports["default"];
+module.exports = Util;
 
 cc._RF.pop();
         }

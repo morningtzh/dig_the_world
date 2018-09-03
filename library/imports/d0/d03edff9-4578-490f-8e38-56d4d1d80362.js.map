@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../assets/scripts/map/assets/scripts/map/block_factory.js"],"names":["RenderBlockFactory"],"mappings":";;;;;;;;IAEMA","file":"block_factory.js","sourceRoot":"../../../../../assets/scripts/map","sourcesContent":["\n\nclass RenderBlockFactory {\n\n}"]}

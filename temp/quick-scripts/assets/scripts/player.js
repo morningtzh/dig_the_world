@@ -1,8 +1,8 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/player.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'bf189epNOhC4IiBoRik8VD6', 'player', __filename);
+cc._RF.push(module, '05dbf/7Rm1KzZ5MTHPtklRa', 'player', __filename);
 // scripts/player.js
 
-'use strict';
+"use strict";
 
 // Learn cc.Class:
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -90,7 +90,7 @@ cc.Class({
         this.xSpeed = 0;
         this.ySpeed = 0;
 
-        console.log(this);
+        cc.log("player onLoad:", this);
 
         this.rigidbody = this.node.getComponent(cc.RigidBody);
         this.rigidbody.linearDamping = 0.1;
@@ -111,10 +111,6 @@ cc.Class({
     },
     start: function start() {},
     update: function update(dt) {
-
-        var xDirection = this.xSpeed / Math.abs(this.xSpeed) ? this.xSpeed / Math.abs(this.xSpeed) : 0;
-        var yDirection = this.ySpeed / Math.abs(this.ySpeed) ? this.ySpeed / Math.abs(this.ySpeed) : 0;
-
         // 根据当前加速度方向每帧更新速度
         // 如果没有按下则减速
 
@@ -126,6 +122,13 @@ cc.Class({
             lastLinearVelocity.x += this.accel * dt;
         }
 
+        // this.rigidbody.gravityScale = 0;
+        // if (this.accUp) {
+        //     lastLinearVelocity.y += this.accel * dt;
+        // } else if (this.accDown) {
+        //     lastLinearVelocity.y -= this.accel * dt;
+        // }
+
         if (this.accUp && !this.jumping) {
             lastLinearVelocity.y -= cc.director.getPhysicsManager().gravity.y;
             this.jumping = true;
@@ -133,7 +136,7 @@ cc.Class({
 
         this.rigidbody.linearVelocity = lastLinearVelocity;
 
-        this.label ? this.label.string = this.node.x + ' \n' + this.node.y + ' \n  ' + this.rigidbody.linearVelocity.x + '\n ' + this.rigidbody.linearVelocity.y : "";
+        this.label ? this.label.string = this.node.x + " \n" + this.node.y + " \n  " + this.rigidbody.linearVelocity.x + "\n " + this.rigidbody.linearVelocity.y : "";
 
         // 计算方位，通知 map 进行刷新
         this.node.lastGamePosition = this.node.gamePosition ? this.node.gamePosition : [0, 5];
@@ -169,43 +172,6 @@ cc.Class({
 
     // 每次处理完碰撞体接触逻辑时被调用
     onPostSolve: function onPostSolve(contact, selfCollider, otherCollider) {}
-
-    // onCollisionEnter (other, self) {
-    //     console.log('on collision enter', other, self, this);
-
-    //     this.touchingNumber++;
-
-    //     this.collisionY = 1;
-    //     this.collisionX = 1;
-
-    //     let otherWorld = other.world;
-    //     let selfWorld = self.world;
-
-    //     // otherWorld
-    //     // selfWorld
-
-    //     console.log(this.node.x, this.node.y);
-
-    // },
-
-    // onCollisionExit (other, self) {
-    //     console.log('on collision exit');
-
-    //     this.touchingNumber--;
-
-    //     if (other.touchingX) {
-    //         this.collisionX = 0;
-    //         other.touchingX = false;
-    //     }
-    //     else if (other.touchingY) {
-    //         other.touchingY = false;
-    //         this.collisionY = 0;
-    //         this.jumping = true;
-    //     }
-    // }
-
-    // update (dt) {},
-
 });
 
 cc._RF.pop();
